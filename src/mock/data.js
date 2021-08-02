@@ -80,6 +80,11 @@ export const footerData = {
       name: 'twitter',
       url: 'https://twitter.com/r_discky',
     },
+    {
+      id: nanoid(),
+      name: 'whatsapp',
+      url: 'https://api.whatsapp.com/send/?phone=6287839912020&text&app_absent=0',
+    },
   ],
 };
 
