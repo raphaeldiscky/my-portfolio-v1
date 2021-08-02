@@ -110,6 +110,14 @@ const Projects = () => {
               </Row>
             );
           })}
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cta-btn cta-btn--hero"
+            href="https://github.com/raphaeldiscky"
+          >
+            Other Projects
+          </a>
         </div>
       </Container>
     </section>
