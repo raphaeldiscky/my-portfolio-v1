@@ -39,7 +39,7 @@ const Footer = () => {
         <hr />
         <p className="footer__text">
           © {new Date().getFullYear()} -{' '}
-          <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/raphaeldiscky" target="_blank" rel="noopener noreferrer">
             Raphael Discky
           </a>
         </p>

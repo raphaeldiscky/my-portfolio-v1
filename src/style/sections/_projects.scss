@@ -52,6 +52,15 @@
     &__image {
       width: 90%;
       margin: 0 auto;
+      filter: gray;
+      -webkit-filter: grayscale(1);
+      -webkit-transition: all 0.8s ease-in-out;
+
+      &:hover {
+        filter: none;
+        -webkit-filter: grayscale(0);
+        -webkit-transform: scale(1.01);
+      }
 
       @include respond(tab-land) {
         width: 100%;
