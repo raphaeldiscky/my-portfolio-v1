@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'discky.jpeg',
+  img: 'discky-photo.jpg',
   paragraphOne: "I'm computer science student from University Gadjah Mada.",
   paragraphTwo: 'Interested in web development and machine learning.',
   paragraphThree: 'I love working in tech industry.',
@@ -26,16 +26,6 @@ export const aboutData = {
 
 // EXPERIENCES DATA
 export const experiencesData = [
-  {
-    id: nanoid(),
-    img: 'joints-logo.png',
-    company: 'JOINTS UGM',
-    jobTitle: 'Software Engineer',
-    date: 'November 2020 - April 2021',
-    descriptionOne: '- Worked on front end development with React and Tailwind CSS',
-    descriptionTwo: '- Implemented UI/UX designs with component styling and animations',
-    descriptionThree: '',
-  },
   {
     id: nanoid(),
     img: 'joints-logo.png',
