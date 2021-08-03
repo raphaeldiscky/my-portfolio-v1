@@ -65,17 +65,19 @@ const Experiences = () => {
             </Row>
           );
         })}
-        <p className="p-linkedlin">
-          Please see my LinkedIn for the complete list of my past work experiences
-        </p>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          className="cta-btn cta-btn--hero"
-          href="https://www.linkedin.com/in/raphaeldiscky/"
-        >
-          My LinkedIn
-        </a>
+        <Fade bottom duration={1000} delay={800} distance="30px">
+          <p className="p-linkedlin">
+            Please see my LinkedIn for the complete list of my past work experiences
+          </p>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cta-btn cta-btn--hero"
+            href="https://www.linkedin.com/in/raphaeldiscky/"
+          >
+            My LinkedIn
+          </a>
+        </Fade>
       </Container>
     </section>
   );

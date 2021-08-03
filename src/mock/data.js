@@ -18,10 +18,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'discky-photo.jpg',
-  paragraphOne: "I'm computer science student from University Gadjah Mada.",
-  paragraphTwo: 'Interested in web development and machine learning.',
-  paragraphThree: 'I love working in tech industry.',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne:
+    'I am currently a student at University of Gadjah Mada pursuing bachelor degree in Computer Science. I am interested and passionate about working in the tech industry.',
+  paragraphTwo:
+    'With a thirst to learn, I am motivated to always go outside of my knowledge and explore new tools and technologies. This drove me to build several projects especially projects that related to Web Development and Machine Learning.',
+  paragraphThree: '',
+  resume: 'https://drive.google.com/file/d/1j03_xRXtQdFu30DtpFyxnBfmB7uVi4sw/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // EXPERIENCES DATA
@@ -46,7 +48,7 @@ export const projectsData = [
     title: 'JOINTS 2021',
     info: 'A web application to handle information and registration for events and competitions organized by the Student Association of Computer Science University of Gadjah Mada.',
     info2: '',
-    url: '',
+    url: 'https://joints.id/',
     repo: '', // if no repo, the button will not show up
   },
   {

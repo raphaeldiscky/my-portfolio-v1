@@ -49,20 +49,41 @@ const Projects = () => {
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="cta-btn cta-btn--hero"
-                        href={url || '#!'}
-                      >
-                        See Live
-                      </a>
-
-                      {repo && (
+                      {url && repo && (
+                        <>
+                          <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="cta-btn cta-btn--hero"
+                            href={url || '#!'}
+                          >
+                            See Live
+                          </a>
+                          <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="cta-btn text-color-main"
+                            href={repo}
+                          >
+                            Source Code
+                          </a>
+                        </>
+                      )}
+                      {url && !repo && (
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="cta-btn text-color-main"
+                          className="cta-btn cta-btn--hero"
+                          href={url || '#!'}
+                        >
+                          See Live
+                        </a>
+                      )}
+                      {repo && !url && (
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cta-btn cta-btn--hero"
                           href={repo}
                         >
                           Source Code
@@ -110,14 +131,16 @@ const Projects = () => {
               </Row>
             );
           })}
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            className="cta-btn cta-btn--hero"
-            href="https://github.com/raphaeldiscky"
-          >
-            Other Projects
-          </a>
+          <Fade bottom duration={1000} delay={1000} distance="30px">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cta-btn cta-btn--hero"
+              href="https://github.com/raphaeldiscky"
+            >
+              Other Projects
+            </a>
+          </Fade>
         </div>
       </Container>
     </section>
