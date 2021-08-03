@@ -2,6 +2,7 @@ import React, { useContext, useState, useEffect } from 'react';
 import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
+import Typewriter from 'typewriter-effect';
 import PortfolioContext from '../../context/context';
 
 const Header = () => {
@@ -29,7 +30,29 @@ const Header = () => {
             {title || 'Hi, my name is'}{' '}
             <span className="text-color-main">{name || 'Raphael Discky'}</span>
             <br />
-            {subtitle || "I'm a Computer Science Student."}
+            {subtitle || (
+              <Typewriter
+                options={{
+                  autoStart: true,
+                  loop: true,
+                }}
+                onInit={(tp) => {
+                  tp.typeString("I'm a Computer Science Student.")
+                    .pauseFor(2000)
+                    .deleteChars(25)
+                    .typeString('Software Engineer.')
+                    .pauseFor(2000)
+                    .deleteChars(18)
+                    .typeString('Web Developer')
+                    .pauseFor(2000)
+                    .deleteChars(13)
+                    .typeString('Lifetime Learner')
+                    .pauseFor(2000)
+                    .deleteChars(17)
+                    .start();
+                }}
+              />
+            )}
           </h1>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
