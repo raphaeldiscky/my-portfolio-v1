@@ -24,6 +24,30 @@ export const aboutData = {
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
+// EXPERIENCES DATA
+export const experiencesData = [
+  {
+    id: nanoid(),
+    img: 'joints-logo.png',
+    company: 'JOINTS UGM',
+    jobTitle: 'Software Engineer',
+    date: 'November 2020 - April 2021',
+    descriptionOne: '- Worked on front end development with React and Tailwind CSS',
+    descriptionTwo: '- Implemented UI/UX designs with component styling and animations',
+    descriptionThree: '',
+  },
+  {
+    id: nanoid(),
+    img: 'joints-logo.png',
+    company: 'JOINTS UGM',
+    jobTitle: 'Software Engineer',
+    date: 'November 2020 - April 2021',
+    descriptionOne: '- Worked on front end development with React and Tailwind CSS',
+    descriptionTwo: '- Implemented UI/UX designs with component styling and animations',
+    descriptionThree: '',
+  },
+];
+
 // PROJECTS DATA
 export const projectsData = [
   {
