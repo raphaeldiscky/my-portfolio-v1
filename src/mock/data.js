@@ -31,20 +31,40 @@ export const aboutData = {
 export const experiencesData = [
   {
     id: nanoid(),
+    img: "viska.png",
+    company: "VISKA",
+    jobTitle: "Software Developer",
+    date: "October 2021 - Present",
+    descriptionOne:
+      "- Developed and maintained web and mobile applications for clients from Europe as a remote software engineer",
+    descriptionTwo:
+      "- Worked as a full-stack developer mainly on React ecosystems like react-native and next",
+    descriptionThree: "",
+  },
+  {
+    id: nanoid(),
     img: "joints-logo.png",
     company: "JOINTS UGM",
-    jobTitle: "Software Engineer",
+    jobTitle: "Software Developer",
     date: "November 2020 - April 2021",
     descriptionOne:
       "- Worked on front end development with React and Tailwind CSS",
     descriptionTwo:
       "- Implemented UI/UX designs with component styling and animations",
-    descriptionThree: "",
   },
 ]
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: "myvatn.png",
+    title: "Mývatn Nature Baths",
+    info: "Myvatn is a ticketing web application for Myvatn Nature Bath, one of the most visited tourist attraction for hot lagoon in Iceland. Worked as full stack developer to develop the frontend and managed the API using Bokun for the transactions process.",
+    info2: "",
+    url: "https://myvatn.vercel.app/",
+    repo: "", // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: "joints.png",
@@ -53,15 +73,6 @@ export const projectsData = [
     info2: "",
     url: "https://joints.id/",
     repo: "", // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: "linkeddev.png",
-    title: "LinkedDev",
-    info: "LinkedDev is a social media web application made for developers.",
-    info2: "",
-    url: "",
-    repo: "https://github.com/raphaeldiscky/linked-dev", // if no repo, the button will not show up
   },
   {
     id: nanoid(),
