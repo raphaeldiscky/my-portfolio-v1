@@ -31,10 +31,22 @@ export const aboutData = {
 export const experiencesData = [
   {
     id: nanoid(),
+    img: "bangkit.png",
+    company: "BANGKIT",
+    jobTitle: "Machine Learning Student",
+    date: "Feb 2021 - Present",
+    descriptionOne:
+      "- Bangkit is a Google-led academy designed to produce high-calibre, technical talent for world-class, Indonesian technology companies and startups.",
+    descriptionTwo:
+      "- Selected as one of the participants from 63.000+ interested applicants to join Bangkit - a Google led, machine learning program",
+    descriptionThree: "",
+  },
+  {
+    id: nanoid(),
     img: "viska.png",
     company: "VISKA",
     jobTitle: "Software Developer",
-    date: "October 2021 - Present",
+    date: "Oct 2021 - Present",
     descriptionOne:
       "- Developed and maintained web and mobile applications for clients from Europe as a remote software engineer",
     descriptionTwo:
@@ -46,7 +58,7 @@ export const experiencesData = [
     img: "joints-logo.png",
     company: "JOINTS UGM",
     jobTitle: "Software Developer",
-    date: "November 2020 - April 2021",
+    date: "Nov 2020 - Apr 2021",
     descriptionOne:
       "- Worked on front end development with React and Tailwind CSS",
     descriptionTwo:
