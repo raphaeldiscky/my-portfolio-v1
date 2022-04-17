@@ -34,7 +34,7 @@ export const experiencesData = [
     img: "bangkit.png",
     company: "BANGKIT",
     jobTitle: "Machine Learning Student",
-    date: "Feb 2021 - Present",
+    date: "Feb 2022 - Present",
     descriptionOne:
       "- Bangkit is a Google-led academy designed to produce high-calibre, technical talent for world-class, Indonesian technology companies and startups.",
     descriptionTwo:
