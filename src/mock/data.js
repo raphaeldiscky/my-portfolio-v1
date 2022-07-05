@@ -24,7 +24,7 @@ export const aboutData = {
     "With a thirst to learn, I am motivated to always go outside of my knowledge and explore new tools and technologies. This drove me to build several projects especially projects that related to Web Development and Machine Learning.",
   paragraphThree: "",
   resume:
-    "https://drive.google.com/file/d/1j03_xRXtQdFu30DtpFyxnBfmB7uVi4sw/view?usp=sharing", // if no resume, the button will not show up
+    "https://drive.google.com/file/d/13tFNf4EomPGQFlZYtydzTtBz-cG8yba_/view?usp=sharing", // if no resume, the button will not show up
 }
 
 // EXPERIENCES DATA
