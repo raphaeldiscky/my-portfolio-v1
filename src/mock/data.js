@@ -24,23 +24,11 @@ export const aboutData = {
     "With a thirst to learn, I am motivated to always go outside of my knowledge and explore new tools and technologies. This drove me to build several projects especially projects that related to Web Development and Machine Learning.",
   paragraphThree: "",
   resume:
-    "https://drive.google.com/file/d/13tFNf4EomPGQFlZYtydzTtBz-cG8yba_/view?usp=sharing", // if no resume, the button will not show up
+    "https://docs.google.com/document/d/1NoQH9zMCiGYH5cH25JlMJu_j8vWVACvhRnoWIm-ln3Y/edit?usp=sharing", // if no resume, the button will not show up
 }
 
 // EXPERIENCES DATA
 export const experiencesData = [
-  {
-    id: nanoid(),
-    img: "bangkit.png",
-    company: "BANGKIT",
-    jobTitle: "Machine Learning Student",
-    date: "Feb 2022 - Present",
-    descriptionOne:
-      "- Bangkit is a Google-led academy designed to produce high-calibre, technical talent for world-class, Indonesian technology companies and startups.",
-    descriptionTwo:
-      "- Selected as one of the participants from 63.000+ interested applicants to join Bangkit - a Google led, machine learning program",
-    descriptionThree: "",
-  },
   {
     id: nanoid(),
     img: "viska.png",
@@ -51,6 +39,18 @@ export const experiencesData = [
       "- Developed and maintained web and mobile applications for clients from Europe as a remote software engineer",
     descriptionTwo:
       "- Worked as a full-stack developer mainly on React ecosystems like react-native and next",
+    descriptionThree: "",
+  },
+  {
+    id: nanoid(),
+    img: "bangkit.png",
+    company: "BANGKIT",
+    jobTitle: "Machine Learning Student",
+    date: "Feb 2022 - Jul 2022",
+    descriptionOne:
+      "- Bangkit is a Google-led academy designed to produce high-calibre, technical talent for world-class, Indonesian technology companies and startups.",
+    descriptionTwo:
+      "- Selected as one of the participants from 63.000+ interested applicants to join Bangkit - a Google led, machine learning program",
     descriptionThree: "",
   },
   {
@@ -70,20 +70,31 @@ export const experiencesData = [
 export const projectsData = [
   {
     id: nanoid(),
-    img: "myvatn.png",
-    title: "Mývatn Nature Baths",
-    info: "Myvatn is a ticketing web application for Myvatn Nature Bath, one of the most visited tourist attraction for hot lagoon in Iceland. Worked as full stack developer to develop the frontend and managed the API using Bokun for the transactions process.",
+    img: "reykjavik.png",
+    title: "Reykjavik Food Walk",
+    info: "Reykjavik Food Walk is a ticketing web application for highest rated food tour in Iceland.",
     info2: "",
-    url: "https://myvatn.vercel.app/",
+    url: "https://www.thereykjavikfoodwalk.com/",
     repo: "", // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: "joints.png",
-    title: "JOINTS 2021",
-    info: "A web application to handle information and registration for events and competitions organized by the Student Association of Computer Science University of Gadjah Mada.",
-    info2: "",
-    url: "https://joints.id/",
+    img: "myvatn.png",
+    title: "Mývatn Nature Baths",
+    info: "Myvatn is a ticketing web application for Myvatn Nature Bath, one of the most visited tourist attraction for hot lagoon in Iceland.",
+    info2:
+      "Worked as full stack developer to develop the frontend and managed the API using Bokun for the transactions process.",
+    url: "https://myvatnnaturebaths.is/",
+    repo: "", // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: "upsell-dashboard.png",
+    title: "Upsell Dashboard",
+    info: "Upsell is a management dashboard website used to monitor and maintain restaurant's orders and customers.",
+    info2:
+      "Worked as full stack developer to develop the frontend and managed the API using express and mongoDB",
+    url: "https://www.upsell.is/",
     repo: "", // if no repo, the button will not show up
   },
   {
