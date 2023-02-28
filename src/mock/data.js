@@ -121,7 +121,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: "linkedin",
-      url: "https://www.linkedin.com/in/raphaeldiscky/",
+      url: "https://linkedin.com/in/raphaeldiscky",
     },
     {
       id: nanoid(),
@@ -131,12 +131,12 @@ export const footerData = {
     {
       id: nanoid(),
       name: "twitter",
-      url: "https://twitter.com/r_discky",
+      url: "https://twitter.com/RaphDiscky",
     },
     {
       id: nanoid(),
       name: "whatsapp",
-      url: "https://api.whatsapp.com/send/?phone=6287839912020&text&app_absent=0",
+      url: "https://wa.me/6287839912020",
     },
   ],
 }
