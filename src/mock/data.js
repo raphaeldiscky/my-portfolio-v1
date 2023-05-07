@@ -101,12 +101,12 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: "tokopaedi.png",
-    title: "Tokopaedi",
-    info: "Tokopaedi is an e-commerce web application with full functionality such as signup, ordering, payment, etc.",
+    img: "forest-lagoon.png",
+    title: "Forest Lagoon",
+    info: "Forest Lagoon is a website for a new geothermal spa located in Vaðlaskógur forest, Iceland integrated with Upsell and CMS.",
     info2: "",
-    url: "",
-    repo: "https://github.com/raphaeldiscky/tokopaedi", // if no repo, the button will not show up
+    url: "https://www.forestlagoon.is/",
+    repo: "", // if no repo, the button will not show up
   },
 ]
 

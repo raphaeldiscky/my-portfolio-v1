@@ -140,7 +140,7 @@ const Projects = () => {
               className="cta-btn cta-btn--hero"
               href="https://github.com/raphaeldiscky"
             >
-              Other Projects
+              See other projects on Github
             </a>
           </Fade>
         </div>
