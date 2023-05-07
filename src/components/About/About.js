@@ -49,6 +49,7 @@ const About = () => {
                 <p className="about-wrapper__info-text">
                   {paragraphThree || ""}
                 </p>
+
                 {resume && (
                   <span className="d-flex mt-3">
                     <a
@@ -59,18 +60,18 @@ const About = () => {
                     >
                       Resume
                     </a>
-                  </span>
-                )}
-                {portfolio && (
-                  <span className="d-flex mt-3">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="cta-btn cta-btn--resume"
-                      href={portfolio}
-                    >
-                      Portfolio
-                    </a>
+                    {portfolio && (
+                      <span className="mx-3">
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cta-btn cta-btn--resume"
+                          href={portfolio}
+                        >
+                          Portfolio
+                        </a>
+                      </span>
+                    )}
                   </span>
                 )}
               </div>

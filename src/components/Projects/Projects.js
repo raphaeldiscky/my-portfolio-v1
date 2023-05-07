@@ -7,8 +7,8 @@ import Title from "../Title/Title"
 import ProjectImg from "../Image/ProjectImg"
 
 const Projects = () => {
-  const { projects } = useContext(PortfolioContext)
-
+  const { projects, about } = useContext(PortfolioContext)
+  const { portfolio } = about
   const [isDesktop, setIsDesktop] = useState(false)
   const [isMobile, setIsMobile] = useState(false)
 
@@ -137,7 +137,7 @@ const Projects = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              className="cta-btn cta-btn--hero"
+              className="cta-btn cta-btn--hero mx-2"
               href="https://github.com/raphaeldiscky"
             >
               See other projects on Github
