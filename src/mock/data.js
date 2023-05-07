@@ -19,9 +19,9 @@ export const heroData = {
 export const aboutData = {
   img: "discky-photo.jpg",
   paragraphOne:
-    "I am currently a student at University of Gadjah Mada pursuing bachelor degree in Computer Science. I am interested and passionate about working in the tech industry.",
+    "As a recent graduate from the University of Gadjah Mada with a bachelor's degree in Computer Science, I am enthusiastic about pursuing a career in the tech industry as a Software Engineer.",
   paragraphTwo:
-    "With a thirst to learn, I am motivated to always go outside of my knowledge and explore new tools and technologies. This drove me to build several projects especially projects that related to Web Development and Machine Learning.",
+    "Driven by a constant thirst for knowledge, I consistently strive to explore new tools and technologies beyond my existing skill set, leading to several successful projects in Software Development and Machine Learning.",
   paragraphThree: "",
   resume:
     "https://docs.google.com/document/d/1NoQH9zMCiGYH5cH25JlMJu_j8vWVACvhRnoWIm-ln3Y/edit?usp=sharing", // if no resume, the button will not show up
