@@ -25,6 +25,8 @@ export const aboutData = {
   paragraphThree: "",
   resume:
     "https://docs.google.com/document/d/1NoQH9zMCiGYH5cH25JlMJu_j8vWVACvhRnoWIm-ln3Y/edit?usp=sharing", // if no resume, the button will not show up
+  portfolio:
+    "https://www.canva.com/design/DAFiOhSOtxQ/02VuFQ8GZ-xjcP2ffoUN9w/view?utm_content=DAFiOhSOtxQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
 }
 
 // EXPERIENCES DATA
