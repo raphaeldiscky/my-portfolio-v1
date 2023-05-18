@@ -35,12 +35,12 @@ export const experiencesData = [
     id: nanoid(),
     img: "viska.png",
     company: "VISKA",
-    jobTitle: "Software Developer",
+    jobTitle: "Software Engineer",
     date: "Oct 2021 - Present",
     descriptionOne:
-      "- Developed and maintained web and mobile applications for clients from Europe as a remote software engineer",
+      "- Developed and maintained web and mobile applications as a remote software developer",
     descriptionTwo:
-      "- Worked as a full-stack developer mainly on React ecosystems like react-native and next",
+      "- Worked on full-stack development mainly on React ecosystems",
     descriptionThree: "",
   },
   {
@@ -53,7 +53,8 @@ export const experiencesData = [
       "- Bangkit is a Google-led academy designed to produce high-calibre, technical talent for world-class, Indonesian technology companies and startups.",
     descriptionTwo:
       "- Selected as one of the participants from 63.000+ interested applicants to join Bangkit - a Google led, machine learning program",
-    descriptionThree: "",
+    descriptionThree:
+      "- Selected as the best team at Company Capstone Project in collaboration with Traveloka",
   },
   {
     id: nanoid(),
