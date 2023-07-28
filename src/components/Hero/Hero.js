@@ -10,14 +10,11 @@ const Header = () => {
   const { title, name, subtitle, cta } = hero
 
   const [isDesktop, setIsDesktop] = useState(false)
-  const [isMobile, setIsMobile] = useState(false)
 
   useEffect(() => {
     if (window.innerWidth > 769) {
       setIsDesktop(true)
-      setIsMobile(false)
     } else {
-      setIsMobile(true)
       setIsDesktop(false)
     }
   }, [])
@@ -27,8 +24,7 @@ const Header = () => {
       <Container>
         <Fade
           triggerOnce
-          left={isDesktop}
-          bottom={isMobile}
+          direction={isDesktop ? "left" : "up"}
           duration={1000}
           delay={500}
           distance="30px"
@@ -64,8 +60,7 @@ const Header = () => {
         </Fade>
         <Fade
           triggerOnce
-          left={isDesktop}
-          bottom={isMobile}
+          direction={isDesktop ? "left" : "up"}
           duration={1000}
           delay={1000}
           distance="30px"

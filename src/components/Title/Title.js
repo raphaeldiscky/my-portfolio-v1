@@ -3,7 +3,7 @@ import { Fade } from "react-awesome-reveal"
 import PropTypes from "prop-types"
 
 const Title = ({ title }) => (
-  <Fade triggerOnce bottom duration={1000} delay={300} distance="0px">
+  <Fade triggerOnce direction="down" duration={1000} delay={300} distance="0px">
     <h2 className="section-title">{title}</h2>
   </Fade>
 )

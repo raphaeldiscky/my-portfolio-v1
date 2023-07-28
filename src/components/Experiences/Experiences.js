@@ -9,14 +9,11 @@ const Experiences = () => {
   const { experiences } = useContext(PortfolioContext)
 
   const [isDesktop, setIsDesktop] = useState(false)
-  const [isMobile, setIsMobile] = useState(false)
 
   useEffect(() => {
     if (window.innerWidth > 769) {
       setIsDesktop(true)
-      setIsMobile(false)
     } else {
-      setIsMobile(true)
       setIsDesktop(false)
     }
   }, [])
@@ -41,8 +38,7 @@ const Experiences = () => {
               <Col md={2} sm={12}>
                 <Fade
                   triggerOnce
-                  left={isDesktop}
-                  bottom={isMobile}
+                  direction={isDesktop ? "left" : "down"}
                   duration={1000}
                   delay={500}
                   distance="30px"
@@ -55,8 +51,7 @@ const Experiences = () => {
               <Col md={10} sm={12}>
                 <Fade
                   triggerOnce
-                  left={isDesktop}
-                  bottom={isMobile}
+                  direction={isDesktop ? "right" : "down"}
                   duration={1000}
                   delay={1000}
                   distance="30px"
@@ -80,7 +75,13 @@ const Experiences = () => {
             </Row>
           )
         })}
-        <Fade triggerOnce bottom duration={1000} delay={800} distance="30px">
+        <Fade
+          triggerOnce
+          direction="down"
+          duration={1000}
+          delay={800}
+          distance="30px"
+        >
           <p className="p-linkedlin">
             Please see my LinkedIn for the complete list of my past work
             experiences

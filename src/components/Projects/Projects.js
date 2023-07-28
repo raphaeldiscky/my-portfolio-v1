@@ -9,14 +9,11 @@ import ProjectImg from "../Image/ProjectImg"
 const Projects = () => {
   const { projects } = useContext(PortfolioContext)
   const [isDesktop, setIsDesktop] = useState(false)
-  const [isMobile, setIsMobile] = useState(false)
 
   useEffect(() => {
     if (window.innerWidth > 769) {
       setIsDesktop(true)
-      setIsMobile(false)
     } else {
-      setIsMobile(true)
       setIsDesktop(false)
     }
   }, [])
@@ -34,8 +31,7 @@ const Projects = () => {
                 <Col lg={4} sm={12}>
                   <Fade
                     triggerOnce
-                    left={isDesktop}
-                    bottom={isMobile}
+                    direction={isDesktop ? "left" : "down"}
                     duration={1000}
                     delay={500}
                     distance="30px"
@@ -97,8 +93,7 @@ const Projects = () => {
                 <Col lg={8} sm={12}>
                   <Fade
                     triggerOnce
-                    right={isDesktop}
-                    bottom={isMobile}
+                    direction={isDesktop ? "right" : "down"}
                     duration={1000}
                     delay={1000}
                     distance="30px"
@@ -134,7 +129,13 @@ const Projects = () => {
               </Row>
             )
           })}
-          <Fade triggerOnce bottom duration={1000} delay={1000} distance="30px">
+          <Fade
+            triggerOnce
+            direction="down"
+            duration={1000}
+            delay={1000}
+            distance="30px"
+          >
             <a
               target="_blank"
               rel="noopener noreferrer"

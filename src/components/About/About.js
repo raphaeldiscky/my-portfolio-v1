@@ -11,14 +11,11 @@ const About = () => {
     about
 
   const [isDesktop, setIsDesktop] = useState(false)
-  const [isMobile, setIsMobile] = useState(false)
 
   useEffect(() => {
     if (window.innerWidth > 769) {
       setIsDesktop(true)
-      setIsMobile(false)
     } else {
-      setIsMobile(true)
       setIsDesktop(false)
     }
   }, [])
@@ -29,13 +26,7 @@ const About = () => {
         <Title title="About Me" />
         <Row className="about-wrapper">
           <Col md={6} sm={12}>
-            <Fade
-              triggerOnce
-              bottom
-              duration={1000}
-              delay={600}
-              distance="30px"
-            >
+            <Fade triggerOnce duration={1000} delay={600} distance="30px">
               <div className="about-wrapper__image">
                 <AboutImg alt="profile picture" filename={img} />
               </div>
@@ -44,8 +35,7 @@ const About = () => {
           <Col md={6} sm={12}>
             <Fade
               triggerOnce
-              left={isDesktop}
-              bottom={isMobile}
+              direction={isDesktop ? "right" : "down"}
               duration={1000}
               delay={1000}
               distance="30px"
