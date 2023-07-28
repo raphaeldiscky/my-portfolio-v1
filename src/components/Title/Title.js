@@ -1,11 +1,17 @@
 import React from "react"
-import { Fade } from "react-awesome-reveal"
+import CustomFade from "../Animation/CustomFade"
 import PropTypes from "prop-types"
 
 const Title = ({ title }) => (
-  <Fade triggerOnce direction="down" duration={1000} delay={300} distance="0px">
+  <CustomFade
+    triggerOnce
+    direction="down"
+    duration={1000}
+    delay={300}
+    distance="0px"
+  >
     <h2 className="section-title">{title}</h2>
-  </Fade>
+  </CustomFade>
 )
 
 Title.propTypes = {

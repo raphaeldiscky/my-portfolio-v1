@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Raphael Discky <zundria.putra@gmail.com>",
   "dependencies": {
+    "@emotion/react": "^11.11.1",
     "bootstrap": "^5.3.1",
     "gatsby": "^5.11.0",
     "gatsby-image": "^3.11.0",

@@ -1,5 +1,5 @@
 import React, { useContext, useState, useEffect } from "react"
-import { Fade } from "react-awesome-reveal"
+import CustomFade from "../Animation/CustomFade"
 import { Container, Row, Col } from "react-bootstrap"
 import Title from "../Title/Title"
 import ExperienceImg from "../Image/ExperienceImg"
@@ -36,7 +36,7 @@ const Experiences = () => {
           return (
             <Row key={i} className="experience-wrapper">
               <Col md={2} sm={12}>
-                <Fade
+                <CustomFade
                   triggerOnce
                   direction={isDesktop ? "left" : "down"}
                   duration={1000}
@@ -46,10 +46,10 @@ const Experiences = () => {
                   <div className="experience-wrapper__image">
                     <ExperienceImg alt="profile picture" filename={img} />
                   </div>
-                </Fade>
+                </CustomFade>
               </Col>
               <Col md={10} sm={12}>
-                <Fade
+                <CustomFade
                   triggerOnce
                   direction={isDesktop ? "right" : "down"}
                   duration={1000}
@@ -70,12 +70,12 @@ const Experiences = () => {
                       {descriptionThree || ""}
                     </p>
                   </div>
-                </Fade>
+                </CustomFade>
               </Col>
             </Row>
           )
         })}
-        <Fade
+        <CustomFade
           triggerOnce
           direction="down"
           duration={1000}
@@ -94,7 +94,7 @@ const Experiences = () => {
           >
             My LinkedIn
           </a>
-        </Fade>
+        </CustomFade>
       </Container>
     </section>
   )

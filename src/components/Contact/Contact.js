@@ -1,5 +1,5 @@
 import React, { useContext } from "react"
-import { Fade } from "react-awesome-reveal"
+import CustomFade from "../Animation/CustomFade"
 import { Container } from "react-bootstrap"
 import PortfolioContext from "../../context/context"
 import Title from "../Title/Title"
@@ -12,7 +12,7 @@ const Contact = () => {
     <section id="contact">
       <Container>
         <Title title="Contact" />
-        <Fade
+        <CustomFade
           triggerOnce
           direction="up"
           duration={1000}
@@ -36,7 +36,7 @@ const Contact = () => {
               {btn || "Let's Talk"}
             </a>
           </div>
-        </Fade>
+        </CustomFade>
       </Container>
     </section>
   )

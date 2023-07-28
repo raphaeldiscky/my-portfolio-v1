@@ -2,11 +2,10 @@ import React from "react"
 import { Link } from "gatsby"
 import { Helmet } from "react-helmet"
 import { Container } from "react-bootstrap"
-import { Fade } from "react-awesome-reveal"
 import "bootstrap/dist/css/bootstrap.min.css"
-
 import { headData } from "../mock/data"
 import "../style/main.scss"
+import CustomFade from "../components/Animation/CustomFade"
 
 const NotFound = () => {
   const { lang } = headData
@@ -21,7 +20,7 @@ const NotFound = () => {
       </Helmet>
       <section id="hero" className="jumbotron">
         <Container>
-          <Fade
+          <CustomFade
             triggerOnce
             direction="down"
             duration={1000}
@@ -34,8 +33,8 @@ const NotFound = () => {
                 😞
               </span>
             </h1>
-          </Fade>
-          <Fade
+          </CustomFade>
+          <CustomFade
             triggerOnce
             direction="down"
             duration={1000}
@@ -47,7 +46,7 @@ const NotFound = () => {
                 Go back
               </Link>
             </p>
-          </Fade>
+          </CustomFade>
         </Container>
       </section>
     </>

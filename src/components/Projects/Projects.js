@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from "react"
-import { Fade } from "react-awesome-reveal"
+import CustomFade from "../Animation/CustomFade"
 import { Tilt } from "react-tilt"
 import { Container, Row, Col } from "react-bootstrap"
 import PortfolioContext from "../../context/context"
@@ -29,7 +29,7 @@ const Projects = () => {
             return (
               <Row key={id}>
                 <Col lg={4} sm={12}>
-                  <Fade
+                  <CustomFade
                     triggerOnce
                     direction={isDesktop ? "left" : "down"}
                     duration={1000}
@@ -88,10 +88,10 @@ const Projects = () => {
                         </a>
                       )}
                     </div>
-                  </Fade>
+                  </CustomFade>
                 </Col>
                 <Col lg={8} sm={12}>
-                  <Fade
+                  <CustomFade
                     triggerOnce
                     direction={isDesktop ? "right" : "down"}
                     duration={1000}
@@ -124,12 +124,12 @@ const Projects = () => {
                         </Tilt>
                       </a>
                     </div>
-                  </Fade>
+                  </CustomFade>
                 </Col>
               </Row>
             )
           })}
-          <Fade
+          <CustomFade
             triggerOnce
             direction="down"
             duration={1000}
@@ -144,7 +144,7 @@ const Projects = () => {
             >
               See other projects on Github
             </a>
-          </Fade>
+          </CustomFade>
         </div>
       </Container>
     </section>

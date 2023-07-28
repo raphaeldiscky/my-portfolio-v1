@@ -1,6 +1,6 @@
 import React, { useContext, useState, useEffect } from "react"
 import { Container } from "react-bootstrap"
-import { Fade } from "react-awesome-reveal"
+import CustomFade from "../Animation/CustomFade"
 import { Link } from "react-scroll"
 import Typewriter from "typewriter-effect"
 import PortfolioContext from "../../context/context"
@@ -22,7 +22,7 @@ const Header = () => {
   return (
     <section id="hero" className="jumbotron">
       <Container>
-        <Fade
+        <CustomFade
           triggerOnce
           direction={isDesktop ? "left" : "up"}
           duration={1000}
@@ -57,8 +57,8 @@ const Header = () => {
               />
             )}
           </h1>
-        </Fade>
-        <Fade
+        </CustomFade>
+        <CustomFade
           triggerOnce
           direction={isDesktop ? "left" : "up"}
           duration={1000}
@@ -72,7 +72,7 @@ const Header = () => {
               </Link>
             </span>
           </p>
-        </Fade>
+        </CustomFade>
       </Container>
     </section>
   )
