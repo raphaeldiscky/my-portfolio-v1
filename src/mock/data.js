@@ -22,7 +22,8 @@ export const aboutData = {
     "As a recent graduate from the University of Gadjah Mada with a bachelor's degree in Computer Science, I am enthusiastic about pursuing a career in the tech industry as a Software Engineer.",
   paragraphTwo:
     "Driven by a constant thirst for knowledge, I consistently strive to explore new tools and technologies beyond my existing skill set, leading to several successful projects in Software Development and Machine Learning.",
-  paragraphThree: "",
+  paragraphThree:
+    "I am committed to seeking new opportunities that will enable me to grow, learn, and positively impact the company. I am eager to bring my skills and experience to a new position and contribute to the team's success. Collaboration is key, and I am always open to new opportunities for partnership.",
   resume:
     "https://docs.google.com/document/d/1NoQH9zMCiGYH5cH25JlMJu_j8vWVACvhRnoWIm-ln3Y/edit?usp=sharing", // if no resume, the button will not show up
   portfolio:
@@ -35,12 +36,12 @@ export const experiencesData = [
     id: nanoid(),
     img: "viska.png",
     company: "VISKA",
-    jobTitle: "Software Engineer",
+    jobTitle: "Full Stack Software Engineer",
     date: "Oct 2021 - Present",
     descriptionOne:
-      "- Developed and maintained web and mobile applications as a remote software developer",
+      "- Working as a team on the development and maintenance of web and mobile applications, primarily within React ecosystem and utilizing cutting-edge technologies, as a full stack software engineer.",
     descriptionTwo:
-      "- Worked on full-stack development mainly on React ecosystems",
+      "- Collaborating with a software house based in Iceland to deliver high-quality software solutions for various clients.",
     descriptionThree: "",
   },
   {
@@ -52,9 +53,9 @@ export const experiencesData = [
     descriptionOne:
       "- Bangkit is a Google-led academy designed to produce high-calibre, technical talent for world-class, Indonesian technology companies and startups.",
     descriptionTwo:
-      "- Selected as one of the participants from 63.000+ interested applicants to join Bangkit - a Google led, machine learning program",
+      "- Selected as one of participants from +63.000 interested applicants with acceptance rate of 4.9% to join Bangkit - a Google lead, machine learning program.",
     descriptionThree:
-      "- Selected as the best team at Company Capstone Project in collaboration with Traveloka",
+      "- Selected as the best team at Company Capstone Project in collaboration with Traveloka, a leading online travel company in Southeast Asia.",
   },
   {
     id: nanoid(),
@@ -63,9 +64,9 @@ export const experiencesData = [
     jobTitle: "Software Developer",
     date: "Nov 2020 - Apr 2021",
     descriptionOne:
-      "- Worked on front end development with React and Tailwind CSS",
+      "- Developed a web application to manage information and registrations for national-scale technology events and competitions.",
     descriptionTwo:
-      "- Implemented UI/UX designs with component styling and animations",
+      "- Focused primarily on front-end development and user interface design.",
   },
 ]
 
@@ -96,7 +97,7 @@ export const projectsData = [
     title: "Upsell Dashboard",
     info: "Upsell is a management dashboard website used to monitor and maintain restaurant's orders and customers.",
     info2:
-      "Worked as full stack developer to develop the frontend and managed the API using express and mongoDB",
+      "Worked as full stack developer to develop the frontend and managed the API using express and mongoDB.",
     url: "https://www.upsell.is/",
     repo: "", // if no repo, the button will not show up
   },
@@ -115,7 +116,7 @@ export const projectsData = [
 export const contactData = {
   cta: "",
   btn: "",
-  email: "zundria.putra@gmail.com",
+  email: "raph.discky@gmail.com",
 }
 
 // FOOTER DATA

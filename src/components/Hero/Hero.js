@@ -1,6 +1,6 @@
 import React, { useContext, useState, useEffect } from "react"
 import { Container } from "react-bootstrap"
-import Fade from "react-reveal/Fade"
+import { Fade } from "react-awesome-reveal"
 import { Link } from "react-scroll"
 import Typewriter from "typewriter-effect"
 import PortfolioContext from "../../context/context"
@@ -26,6 +26,7 @@ const Header = () => {
     <section id="hero" className="jumbotron">
       <Container>
         <Fade
+          triggerOnce
           left={isDesktop}
           bottom={isMobile}
           duration={1000}
@@ -62,6 +63,7 @@ const Header = () => {
           </h1>
         </Fade>
         <Fade
+          triggerOnce
           left={isDesktop}
           bottom={isMobile}
           duration={1000}

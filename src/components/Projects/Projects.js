@@ -1,14 +1,13 @@
 import React, { useContext, useEffect, useState } from "react"
-import Fade from "react-reveal/Fade"
-import Tilt from "react-tilt"
+import { Fade } from "react-awesome-reveal"
+import { Tilt } from "react-tilt"
 import { Container, Row, Col } from "react-bootstrap"
 import PortfolioContext from "../../context/context"
 import Title from "../Title/Title"
 import ProjectImg from "../Image/ProjectImg"
 
 const Projects = () => {
-  const { projects, about } = useContext(PortfolioContext)
-  const { portfolio } = about
+  const { projects } = useContext(PortfolioContext)
   const [isDesktop, setIsDesktop] = useState(false)
   const [isMobile, setIsMobile] = useState(false)
 
@@ -34,6 +33,7 @@ const Projects = () => {
               <Row key={id}>
                 <Col lg={4} sm={12}>
                   <Fade
+                    triggerOnce
                     left={isDesktop}
                     bottom={isMobile}
                     duration={1000}
@@ -96,6 +96,7 @@ const Projects = () => {
                 </Col>
                 <Col lg={8} sm={12}>
                   <Fade
+                    triggerOnce
                     right={isDesktop}
                     bottom={isMobile}
                     duration={1000}
@@ -133,7 +134,7 @@ const Projects = () => {
               </Row>
             )
           })}
-          <Fade bottom duration={1000} delay={1000} distance="30px">
+          <Fade triggerOnce bottom duration={1000} delay={1000} distance="30px">
             <a
               target="_blank"
               rel="noopener noreferrer"

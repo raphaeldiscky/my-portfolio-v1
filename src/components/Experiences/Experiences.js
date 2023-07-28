@@ -1,5 +1,5 @@
 import React, { useContext, useState, useEffect } from "react"
-import Fade from "react-reveal/Fade"
+import { Fade } from "react-awesome-reveal"
 import { Container, Row, Col } from "react-bootstrap"
 import Title from "../Title/Title"
 import ExperienceImg from "../Image/ExperienceImg"
@@ -40,6 +40,7 @@ const Experiences = () => {
             <Row key={i} className="experience-wrapper">
               <Col md={2} sm={12}>
                 <Fade
+                  triggerOnce
                   left={isDesktop}
                   bottom={isMobile}
                   duration={1000}
@@ -53,6 +54,7 @@ const Experiences = () => {
               </Col>
               <Col md={10} sm={12}>
                 <Fade
+                  triggerOnce
                   left={isDesktop}
                   bottom={isMobile}
                   duration={1000}
@@ -78,7 +80,7 @@ const Experiences = () => {
             </Row>
           )
         })}
-        <Fade bottom duration={1000} delay={800} distance="30px">
+        <Fade triggerOnce bottom duration={1000} delay={800} distance="30px">
           <p className="p-linkedlin">
             Please see my LinkedIn for the complete list of my past work
             experiences
