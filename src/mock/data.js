@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: "discky-photo.jpg",
   paragraphOne:
-    "Experienced Software Development Engineer with 2 years of experience in a startup environment with strong background in Computer Science.",
+    "Experienced Software Development Engineer with 2 years of experience in a startup environment and a strong background in Computer Science.",
   paragraphTwo:
     "Driven by a constant thirst for knowledge, I consistently strive to explore new tools and technologies beyond my existing skill set, leading to several successful projects in Software Development and Machine Learning.",
   paragraphThree:
