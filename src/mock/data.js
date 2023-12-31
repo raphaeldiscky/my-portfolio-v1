@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: "discky-photo.jpg",
   paragraphOne:
-    "As a recent graduate from the University of Gadjah Mada with a bachelor's degree in Computer Science, I am enthusiastic about pursuing a career in the tech industry as a Software Engineer.",
+    "Experienced Software Development Engineer with 2 years of experience in a startup environment with strong background in Computer Science.",
   paragraphTwo:
     "Driven by a constant thirst for knowledge, I consistently strive to explore new tools and technologies beyond my existing skill set, leading to several successful projects in Software Development and Machine Learning.",
   paragraphThree:
