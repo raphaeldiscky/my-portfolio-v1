@@ -79,7 +79,7 @@ export const projectsData = [
     title: "Upsell Dashboard",
     info: "Upsell is a management dashboard website used to monitor and maintain restaurant's orders and customers.",
     info2:
-      "Working as full stack developer to develop the frontend and managed the APIs using Express and mongoDB.",
+      "Working as full stack developer to develop the frontend and managed the APIs using TypeScript, Express, MongoDB, etc.",
     url: "https://www.upsell.is/",
     repo: "", // if no repo, the button will not show up
   },
