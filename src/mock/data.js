@@ -39,10 +39,11 @@ export const experiencesData = [
     jobTitle: "Full Stack Software Engineer",
     date: "Oct 2021 - Present",
     descriptionOne:
-      "- Working as a team on the development and maintenance of web and mobile applications, primarily within React ecosystem and utilizing cutting-edge technologies, as a full stack software engineer.",
+      "- Mostly working on Upsell Products (Dashboard, POS, Kiosk, Widget, etc) as a full stack software engineer.",
     descriptionTwo:
+      "- Working as a team on the development and maintenance of web and mobile applications, primarily within React ecosystem and utilizing cutting-edge technologies.",
+    descriptionThree:
       "- Collaborating with a software house based in Iceland to deliver high-quality software solutions for various clients.",
-    descriptionThree: "",
   },
   {
     id: nanoid(),
@@ -74,6 +75,16 @@ export const experiencesData = [
 export const projectsData = [
   {
     id: nanoid(),
+    img: "upsell-dashboard.png",
+    title: "Upsell Dashboard",
+    info: "Upsell is a management dashboard website used to monitor and maintain restaurant's orders and customers.",
+    info2:
+      "Working as full stack developer to develop the frontend and managed the APIs using Express and mongoDB.",
+    url: "https://www.upsell.is/",
+    repo: "", // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: "reykjavik.png",
     title: "Reykjavik Food Walk",
     info: "Reykjavik Food Walk is a ticketing web application for highest rated food tour in Iceland.",
@@ -89,16 +100,6 @@ export const projectsData = [
     info2:
       "Worked as full stack developer to develop the frontend and managed the API using Bokun for the transactions process.",
     url: "https://myvatnnaturebaths.is/",
-    repo: "", // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: "upsell-dashboard.png",
-    title: "Upsell Dashboard",
-    info: "Upsell is a management dashboard website used to monitor and maintain restaurant's orders and customers.",
-    info2:
-      "Worked as full stack developer to develop the frontend and managed the API using express and mongoDB.",
-    url: "https://www.upsell.is/",
     repo: "", // if no repo, the button will not show up
   },
   {
