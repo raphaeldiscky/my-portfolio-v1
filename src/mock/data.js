@@ -34,16 +34,12 @@ export const aboutData = {
 export const experiencesData = [
   {
     id: nanoid(),
-    img: "viska.png",
-    company: "VISKA",
-    jobTitle: "Full Stack Software Engineer",
+    img: "upsell.png",
+    company: "Upsell.is",
+    jobTitle: "Software Engineer - Fullstack ",
     date: "Oct 2021 - Present",
     descriptionOne:
-      "- Mostly working on Upsell Products (Dashboard, POS, Kiosk, Widget, etc) as a full stack software engineer.",
-    descriptionTwo:
-      "- Working as a team on the development and maintenance of web and mobile applications, primarily within React ecosystem and utilizing cutting-edge technologies.",
-    descriptionThree:
-      "- Collaborating with a software house based in Iceland to deliver high-quality software solutions for various clients.",
+      "- Mostly working on Upsell products (Dashboard, POS, Kiosk, Widget, etc) as a full stack software engineer.",
   },
   {
     id: nanoid(),
@@ -62,12 +58,10 @@ export const experiencesData = [
     id: nanoid(),
     img: "joints-logo.png",
     company: "JOINTS UGM",
-    jobTitle: "Software Developer",
+    jobTitle: "Software Engineer",
     date: "Nov 2020 - Apr 2021",
     descriptionOne:
       "- Developed a web application to manage information and registrations for national-scale technology events and competitions.",
-    descriptionTwo:
-      "- Focused primarily on front-end development and user interface design.",
   },
 ]
 
@@ -77,10 +71,27 @@ export const projectsData = [
     id: nanoid(),
     img: "upsell-dashboard.png",
     title: "Upsell Dashboard",
-    info: "Upsell is a management dashboard website used to monitor and maintain restaurant's orders and customers.",
-    info2:
-      "Working as full stack developer to develop the frontend and managed the APIs using TypeScript, Express, MongoDB, etc.",
+    info: "Dashboard for the Upsell ecosystem to monitor, customize, and manage restaurant orders and customers.",
+    info2: "",
     url: "https://www.upsell.is/",
+    repo: "", // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: "upsell-pos.png",
+    title: "Upsell POS",
+    info: "Point of Sale system for the Upsell ecosystem built using React Native.",
+    info2: "",
+    url: "https://www.thereykjavikfoodwalk.com/",
+    repo: "", // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: "upsell-kiosk.png",
+    title: "Upsell Kiosk",
+    info: "Kiosk system for Upsell ecosystem built using React Native.",
+    info2: "",
+    url: "https://www.thereykjavikfoodwalk.com/",
     repo: "", // if no repo, the button will not show up
   },
   {
