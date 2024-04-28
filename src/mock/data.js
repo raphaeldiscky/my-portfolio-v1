@@ -39,8 +39,7 @@ export const experiencesData = [
     jobTitle: "Software Engineer - Fullstack ",
     date: "Oct 2021 - Present",
     descriptionOne:
-      "- As a full-stack software engineer on the core team, I develop and implement microservices and frontend components for some of the Upsell ecosystem (Dashboard, POS, Kiosk, Widget, etc.)",
-    descriptionTwo: "- I utilize TypeScript, Hono RPC, FaunaDB, Next.js, etc.",
+      "- As a full-stack engineer within the core team, I am responsible for maintaining and developing backend microservices and frontend components for various Upsell products, including the Dashboard, POS, Kiosk, Widget, etc.",
   },
   {
     id: nanoid(),
