@@ -71,7 +71,7 @@ export const projectsData = [
     id: nanoid(),
     img: "upsell-dashboard.png",
     title: "Upsell Dashboard",
-    info: "Dashboard for the Upsell ecosystem to monitor, customize, and manage restaurant orders and customers.",
+    info: "Dashboard for the Upsell ecosystem to monitor, customize, and manage restaurant products.",
     info2: "",
     url: "https://www.upsell.is/",
     repo: "", // if no repo, the button will not show up
