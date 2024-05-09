@@ -48,20 +48,18 @@ export const experiencesData = [
     jobTitle: "Machine Learning Student",
     date: "Feb 2022 - Jul 2022",
     descriptionOne:
-      "- Bangkit is a Google-led academy designed to produce high-calibre, technical talent for world-class, Indonesian technology companies and startups.",
+      "- Selected as one of the participants from +63.000 interested applicants with an acceptance rate of 4.9% to join Bangkit - a Google lead, machine learning program.",
     descriptionTwo:
-      "- Selected as one of participants from +63.000 interested applicants with acceptance rate of 4.9% to join Bangkit - a Google lead, machine learning program.",
-    descriptionThree:
-      "- Selected as the best team at Company Capstone Project in collaboration with Traveloka, a leading online travel company in Southeast Asia.",
+      "- Collaborated with Traveloka to develop an OCR-based object detection model for KTP validation, integrated into a native Kotlin mobile app and back-end server using Fastify, PostgreSQL, and leveraging GCP.",
   },
   {
     id: nanoid(),
     img: "joints-logo.png",
     company: "JOINTS UGM",
-    jobTitle: "Software Engineer",
+    jobTitle: "Software Developer",
     date: "Nov 2020 - Apr 2021",
     descriptionOne:
-      "- Developed a web application to manage information and registrations for national-scale technology events and competitions.",
+      "- Developed national-scale technology events and competitions web application, leveraging React and Tailwind CSS for our front-end, and Firebase and Express for our back-end service.",
   },
 ]
 
