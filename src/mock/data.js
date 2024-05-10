@@ -48,9 +48,9 @@ export const experiencesData = [
     jobTitle: "Machine Learning Student",
     date: "Feb 2022 - Jul 2022",
     descriptionOne:
-      "- Selected as one of the participants from +63.000 interested applicants with an acceptance rate of 4.9% to join Bangkit - a Google lead, machine learning program.",
+      "- Selected amongst a highly competitive pool (acceptance rate: 4.9%) with +63.000 interested applicants to participate in Bangkit - a Google lead, machine learning program.",
     descriptionTwo:
-      "- Collaborated with Traveloka to develop an OCR-based object detection model for KTP validation, integrated into a native Kotlin mobile app and back-end server using Fastify, PostgreSQL, and leveraging GCP.",
+      "- Collaborated with Traveloka to develop an OCR-based object detection model for KTP validation. This model was integrated into a native Kotlin mobile app and back-end server leveraging Fastify, PostgreSQL, and GCP.",
   },
   {
     id: nanoid(),
@@ -59,7 +59,7 @@ export const experiencesData = [
     jobTitle: "Software Developer",
     date: "Nov 2020 - Apr 2021",
     descriptionOne:
-      "- Developed national-scale technology events and competitions web application, leveraging React and Tailwind CSS for our front-end, and Firebase and Express for our back-end service.",
+      "- Developed and deployed a web application for national-scale technology events and competitions. This application utilized React and Tailwind CSS for the front-end, and Firebase with Express for the back-end service.",
   },
 ]
 
