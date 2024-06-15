@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: "discky-photo.jpg",
   paragraphOne:
-    "Experienced Software Development Engineer with 2 years of experience in a startup environment and a strong background in Computer Science.",
+    "Experienced Software Development Engineer with 3 years of experience in a startup environment and a strong background in Computer Science.",
   paragraphTwo:
     "Driven by a constant thirst for knowledge, I consistently strive to explore new tools and technologies beyond my existing skill set, leading to several successful projects in Software Development and Machine Learning.",
   paragraphThree:
@@ -96,7 +96,7 @@ export const projectsData = [
     id: nanoid(),
     img: "reykjavik.png",
     title: "Reykjavik Food Walk",
-    info: "Reykjavik Food Walk is a ticketing web application for highest rated food tour in Iceland.",
+    info: "Reykjavik Food Walk is a ticketing CMS based web application for highest rated food tour in Iceland.",
     info2: "",
     url: "https://www.thereykjavikfoodwalk.com/",
     repo: "", // if no repo, the button will not show up
@@ -105,9 +105,7 @@ export const projectsData = [
     id: nanoid(),
     img: "myvatn.png",
     title: "Mývatn Nature Baths",
-    info: "Myvatn is a ticketing web application for Myvatn Nature Bath, one of the most visited tourist attraction for hot lagoon in Iceland.",
-    info2:
-      "Worked as full stack developer to develop the frontend and managed the API using Bokun for the transactions process.",
+    info: "Myvatn is a ticketing CMS based web application for Myvatn Nature Bath, one of the most visited tourist attraction for hot lagoon in Iceland.",
     url: "https://myvatnnaturebaths.is/",
     repo: "", // if no repo, the button will not show up
   },
@@ -115,7 +113,7 @@ export const projectsData = [
     id: nanoid(),
     img: "forest-lagoon.png",
     title: "Forest Lagoon",
-    info: "Forest Lagoon is a website for a new geothermal spa located in Vaðlaskógur forest, Iceland integrated with Upsell and CMS.",
+    info: "Forest Lagoon is a ticketing CMS based web application for a new geothermal spa located in Vaðlaskógur forest.",
     info2: "",
     url: "https://www.forestlagoon.is/",
     repo: "", // if no repo, the button will not show up
