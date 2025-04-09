@@ -7,8 +7,15 @@ import CustomFade from "../Animation/CustomFade"
 
 const About = () => {
   const { about } = useContext(PortfolioContext)
-  const { img, paragraphOne, paragraphTwo, paragraphThree, resume, portfolio } =
-    about
+  const {
+    img,
+    paragraphOne,
+    paragraphTwo,
+    paragraphThree,
+    paragraphFour,
+    resume,
+    portfolio,
+  } = about
 
   const [isDesktop, setIsDesktop] = useState(false)
 
@@ -45,6 +52,9 @@ const About = () => {
                 <p className="about-wrapper__info-text">{paragraphTwo || ""}</p>
                 <p className="about-wrapper__info-text">
                   {paragraphThree || ""}
+                </p>
+                <p className="about-wrapper__info-text">
+                  {paragraphFour || ""}
                 </p>
 
                 {resume && (

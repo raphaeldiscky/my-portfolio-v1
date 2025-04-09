@@ -40,10 +40,7 @@ const Header = () => {
                   loop: true,
                 }}
                 onInit={tp => {
-                  tp.typeString("I'm a Computer Science Student")
-                    .pauseFor(2000)
-                    .deleteChars(24)
-                    .typeString("Software Engineer")
+                  tp.typeString("I'm a Software Engineer")
                     .pauseFor(2000)
                     .deleteChars(17)
                     .typeString("Lifetime Learner")

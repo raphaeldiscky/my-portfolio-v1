@@ -19,11 +19,13 @@ export const heroData = {
 export const aboutData = {
   img: "discky-photo.jpg",
   paragraphOne:
-    "Experienced Software Development Engineer with 3 years of experience in a startup environment and a strong background in Computer Science.",
+    "Experienced software engineer with 3+ years of experience in a fast-paced startup environment and a strong background in Computer Science.",
   paragraphTwo:
-    "Driven by a constant thirst for knowledge, I consistently strive to explore new tools and technologies beyond my existing skill set, leading to several successful projects in Software Development and Machine Learning.",
+    "Specializing in backend development with full-stack capabilities, I thrive on solving complex problems and building scalable solutions. I'm driven by a passion for continuous learning and actively explore new tools and technologies to stay ahead of the curve.",
   paragraphThree:
     "I am committed to seeking new opportunities that will enable me to grow, learn, and positively impact the company. I am eager to bring my skills and experience to a new position and contribute to the team's success.",
+  paragraphFour:
+    "My main technology stacks includes Python, TypeScript, Go, PostgreSQL, NoSQL, and React — but I'm quick to pick up whatever the work requires.",
   resume:
     "https://docs.google.com/document/d/1irQVZ6Kf8466hn6cvk7SJTvcaKVlUHKp/edit", // if no resume, the button will not show up
   portfolio:
@@ -36,10 +38,10 @@ export const experiencesData = [
     id: nanoid(),
     img: "upsell.png",
     company: "Upsell.is",
-    jobTitle: "Software Engineer - Fullstack ",
+    jobTitle: "Software Engineer",
     date: "Oct 2021 - Present",
     descriptionOne:
-      "- As a full-stack engineer within the core team, I am responsible for maintaining and developing backend microservices and frontend components for various Upsell products, including the Dashboard, POS, Kiosk, Widget, etc.",
+      "- As a software engineer within the core team, I am responsible for developing and maintaining backend microservices and frontend components for various Upsell products, including the Dashboard, POS, Kiosk, Widget, etc.",
   },
   {
     id: nanoid(),
