@@ -26,6 +26,7 @@ const Experiences = () => {
           const {
             img,
             company,
+            companyUrl,
             jobTitle,
             date,
             descriptionOne,
@@ -59,7 +60,15 @@ const Experiences = () => {
                   <div className="experience-wrapper__info">
                     <p className="date">{date || "Date"}</p>
                     <h1>{jobTitle || "Job Title"}</h1>
-                    <p className="company">{company || "Cimpany Name"}</p>
+                    <p className="company">
+                      <a
+                        href={companyUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {company || "Company Name"}
+                      </a>
+                    </p>
                     <p className="experience-wrapper__info-text">
                       {descriptionOne || ""}
                     </p>
