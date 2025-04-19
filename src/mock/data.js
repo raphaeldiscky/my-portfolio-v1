@@ -87,7 +87,7 @@ export const projectsData = [
     title: "Upsell POS",
     info: "Point of Sale system for the Upsell ecosystem built using React Native.",
     info2: "",
-    url: "https://www.thereykjavikfoodwalk.com/",
+    url: "",
     repo: "", // if no repo, the button will not show up
   },
   {
@@ -96,7 +96,7 @@ export const projectsData = [
     title: "Upsell Kiosk",
     info: "Kiosk system for Upsell ecosystem built using React Native.",
     info2: "",
-    url: "https://www.thereykjavikfoodwalk.com/",
+    url: "",
     repo: "", // if no repo, the button will not show up
   },
   {
