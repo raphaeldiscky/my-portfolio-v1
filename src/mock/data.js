@@ -140,17 +140,17 @@ export const footerData = {
     {
       id: nanoid(),
       name: "linkedin",
-      url: "https://linkedin.com/in/raphaeldiscky",
+      url: "https://dub.sh/rdiscky-linkedin",
     },
     {
       id: nanoid(),
       name: "github",
-      url: "https://github.com/raphaeldiscky",
+      url: "https://dub.sh/rdiscky-github",
     },
     {
       id: nanoid(),
       name: "twitter",
-      url: "https://twitter.com/RaphDiscky",
+      url: "https://dub.sh/rdiscky-twitter",
     },
     {
       id: nanoid(),
