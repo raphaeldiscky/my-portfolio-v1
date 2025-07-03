@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo:
     "Specializing in backend development with full-stack capabilities, I thrive on solving complex problems and building scalable solutions. I'm driven by a passion for continuous learning and actively explore new tools and technologies to stay ahead of the curve.",
   paragraphThree:
-    "My main technology stacks includes Python, TypeScript, Go, PostgreSQL, NoSQL, and React — but I'm quick to pick up whatever the work requires.",
+    "My main technology stack includes Python, TypeScript, Go, PostgreSQL, NoSQL, and React, but I'm quick to pick up whatever the work requires.",
   paragraphFour:
     "I am committed to seeking new opportunities that will enable me to grow, learn, and positively impact the company. I am eager to bring my skills and experience to a new position and contribute to the team's success.",
   resume:
